@@ -36,8 +36,8 @@ public class HelloController {
 //    @Scheduled(fixedRate = 5000)
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     public String hello(){
-        System.out.println("hello2");
-        return "Hello World2";
+        System.out.println("hello");
+        return "Hello World";
     }
 
     public static void main1(String[] args) throws ParseException {
